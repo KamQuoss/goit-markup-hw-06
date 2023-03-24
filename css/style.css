@@ -221,9 +221,6 @@ ul.contact-container {
 .link-header.contact:focus,
 .link-header.contact:hover {
   color: var(--color-primary);
-  transition: color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-timing-func);
 }
 .link-header.active {
   color: var(--color-primary);
@@ -447,9 +444,6 @@ ul.contact-container {
 
 .card-product:hover .card-overlay {
   transform: translateY(0%);
-  transition: transform;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-timing-func);
 }
 
 .card-product .card-header {
